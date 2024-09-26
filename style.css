@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+body {
+    font-family: Onest;
+    font-weight: 400;
+    font-size: 14px;
+}
+.Back {
+    width: 1443px;
+    height: auto;
+    margin: 0 auto;
+    
+    
+}
+.background-layer {
+    position: absolute; /* Фиксированное позиционирование background-color: #EAEAEA;*/
+    margin: 0 auto;
+    background-color: #EAEAEA;
+    height: 3300px;
+    z-index: -1; /* Слой с фонами ниже других */
+}
+
+.background-image1 {
+    background-image: url('sprite/back1.png');
+    margin-top: 30px;
+    width: 1443px; /* Можно установить ширину */
+    height: 801px;
+    opacity: 0.8; /* Прозрачность фона */
+}
+
+/* Main Menu */
+.container {
+    z-index: 2;
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+.header_container {
+    height: 72px;
+    display: flex;
+}
+.header_logo {
+    margin-top: 14px;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 21px;
+    font-weight: 900;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+.header_button {
+    width: 160px;
+    height: 40px;
+}
+.header_button_zone {
+    margin-top: 14px;
+    margin-left: auto;
+    width: 320;
+    height: 40px;
+}
+
+/* Land1 */
+
+.land1_Main {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1160px;
+    height: 440px;
+
+}
+
+.land1_MainH1 {
+    font-size: 80px; 
+    line-height: 88px;
+    font-weight: 700; 
+    letter-spacing: -0.04em;
+}
+.land1_MainP {
+    line-height: 32px;
+    margin-top: 32px;
+    font-size: 24px;
+    width: 626px;
+}
+.land1_MainButt {
+    margin-top: 88px;
+    width: 210px;
+    height: 48px;
+    background-color: #FF5900;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.land2_Main {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 180px;
+
+    width: 1160px;
+    height: 440px;
+}
+
+.land2_MainH1 {
+    font-size: 32px;
+    font-weight: 700;
+    width: 460px;
+}
+.land2_MainTab2 {
+    margin-left: 140px;
+}
+.land2_MainP {
+    width: 560px;
+    font-size: 22px;
+    margin-top: 32px;
+}
+.land2_TwoButt {
+    width: 560px;
+    height: 60px;
+    background-color: white;
+    border-radius: 14px;
+    font-size: 24px;
+}
+.land2_TwoButtOne {
+    background-color: #1D1D1B;
+    width: 276px;
+    height: 60px;
+    color: white;
+    font-weight: 700;
+    border-radius: 14px;
+}
+.land2_TwoButtTwo {
+    width: 276px;
+    height: 60px;
+    font-weight: 700;
+    color: #A4ADAC;
+}
